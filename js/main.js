@@ -39,12 +39,12 @@ form.addEventListener("submit", (evento) => {
         
         criarElemento(itemAtual);
 
-        //.push é uma funcao utilizada pra add um elemento ao array
+        //.push é uma função utilizada pra add um elemento ao array
         itens.push(itemAtual);
 
     }
     
-    //transforma o Objeto em string, pq o localStorage armazena dados do tipo string 
+    //transforma o Objeto em string 
     localStorage.setItem("itens", JSON.stringify(itens));
     
     nome.value = "";
@@ -74,6 +74,8 @@ function atualizaElemento(item) {
     document.querySelector("[data-id='"+item.id+"']").innerHTML = item.quantidade;
 }
 
+//Função para criar botão com evento de click nos itens, e retornar os itens clicados
+
 function botaoDeleta(id) {
     const elementoBotao = document.createElement('button')
     elementoBotao.innerHTML = 'X'
@@ -86,6 +88,8 @@ function botaoDeleta(id) {
     return elementoBotao
 
 }
+
+//Função para deletar os itens enviados da função botaoDeleta no array de itens e no navegador
 
 function deletaElemento(tag, id) {
     tag.remove()
