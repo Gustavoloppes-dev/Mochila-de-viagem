@@ -1,8 +1,8 @@
-#Mochila de Viagem
+# Mochila de Viagem
 
 O projeto Mochila de Viagem foi desenvolvido durante o curso JavaScript na Web: armazenando dados no navegador da Alura, é um site simples para gerenciar uma lista de itens a serem levados em uma viagem. Com ele, é possível adicionar, editar e excluir itens da lista, além de manter essas informações salvas mesmo após o fechamento da página ou reinicialização do navegador.
 
-#Funcionalidades
+# Funcionalidades
 
 Adicionar um novo item à lista, com nome e quantidade
 
@@ -15,11 +15,11 @@ Salvar as informações da lista no navegador, permitindo o acesso às informaç
 Visualizar a lista de itens, mantendo o formato dos itens adicionados
 
 
-#Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando JavaScript puro, sem o uso de frameworks ou bibliotecas adicionais. Para a persistência de dados, foi utilizado o localStorage do navegador.
 
-#Como funciona
+# Como funciona
 
 O projeto foi construído usando JavaScript, HTML e CSS. O site usa o Local Storage do navegador para armazenar as informações da lista de itens.
 
@@ -31,7 +31,7 @@ Se você excluir um item, o JavaScript irá remover o objeto correspondente do a
 
 O JavaScript também usa o Local Storage para salvar as informações da lista de itens sempre que houver uma alteração. Isso garante que suas informações permaneçam salvas mesmo que você feche o navegador ou reinicie o computador.
 
-#Como executar
+# Como executar
 
 Para executar o projeto em sua máquina, siga as instruções abaixo:
 
